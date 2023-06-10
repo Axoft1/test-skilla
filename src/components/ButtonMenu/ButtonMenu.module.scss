@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  gap: 13px;
+  padding: 17px 12px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.active{
+    background: rgba(216, 228, 251, 0.32);
+  .name {
+    color: azure;
+  }
+}
+.img {
+    img {
+        svg {
+            path {
+                color: red;
+          fill: rgb(255, 0, 0);
+          fill-opacity: 1;
+            }
+        }
+  }
+}
+.button:hover {
+  background: rgba(216, 228, 251, 0.32);
+  .name {
+    color: azure;
+  }
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.4s;
+}

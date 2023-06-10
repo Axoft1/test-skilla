@@ -5,13 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'SF Pro Display';
+  font-style: normal;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 .px1 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -20,4 +25,4 @@ code {
 .group {
   display: flex;
   justify-content: space-between;
-}
+} */

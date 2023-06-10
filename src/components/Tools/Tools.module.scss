@@ -1,0 +1,41 @@
+.tools {
+  display: flex;
+  justify-content: flex-end;
+  gap: 48px;
+  margin: 20px 0;
+}
+.balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 145px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 48px;
+  .balanceItem {
+    display: flex;
+    p {
+      color: #899cb1;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 148%;
+    }
+    div {
+      margin-left: 5px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 148%;
+    }
+  }
+}
+.calendar {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.day {
+  display: flex;
+  gap: 8px;
+  color: #005ff8;
+}

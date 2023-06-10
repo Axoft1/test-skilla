@@ -6,6 +6,7 @@ import './index.css'
 
 import App from './App'
 
+// eslint-disable-next-line prettier/prettier
 const container = document.getElementById('root') as HTMLDivElement
 const root = createRoot(container!)
 
